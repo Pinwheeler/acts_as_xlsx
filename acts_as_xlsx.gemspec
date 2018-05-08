@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("{lib/**/*}") + %w{ LICENSE README.md Rakefile CHANGELOG.md .yardopts }
   s.test_files  = Dir.glob("{test/**/*}")
 
-  s.add_runtime_dependency 'axlsx', '~> 2.0.0'
-  s.add_runtime_dependency 'activerecord', '>= 2.3.9'
-  s.add_runtime_dependency 'i18n', '>= 0.4.1'
+  s.add_runtime_dependency 'axlsx', '~> 2.0', '>= 2.0.0'
+  s.add_runtime_dependency 'activerecord', '~> 2.3', '>= 2.3.9'
+  s.add_runtime_dependency 'i18n', '~> 0.4', '>= 0.4.1'
 
   s.add_development_dependency 'rake', "0.8.7" if RUBY_VERSION == "1.9.2"
   s.add_development_dependency 'rake', "~> 0.9" if ["1.9.3", "1.8.7"].include?(RUBY_VERSION)
