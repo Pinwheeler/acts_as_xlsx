@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("{lib/**/*}") + %w{ LICENSE README.md Rakefile CHANGELOG.md .yardopts }
   s.test_files  = Dir.glob("{test/**/*}")
 
-  s.add_runtime_dependency 'axlsx', '~> 2.0', '>= 2.0.0'
+  s.add_runtime_dependency 'axlsx', '~> 3.0.0.pre'
   s.add_runtime_dependency 'activerecord', '>= 2.3.9'
   s.add_runtime_dependency 'i18n', '>= 0.4.1'
 
